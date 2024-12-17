@@ -9,12 +9,13 @@ public class clickplace : MonoBehaviour
 
     public int foodValue;
     static float offset = 0;
+    //
 
     public static void Reset()
     {
         offset = 0;
     }
-    //
+    
     private void OnMouseDown()
     {
         Transform clone = Instantiate(transform);

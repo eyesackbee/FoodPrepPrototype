@@ -14,7 +14,8 @@ public class serveplate : MonoBehaviour
 
     public void ClearPlate()
     {
-        foreach(Transform item in food)
+        clickplace.Reset();
+        foreach (Transform item in food)
         {
             Destroy(item.gameObject);
         }
